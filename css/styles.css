@@ -313,17 +313,21 @@ table {
 /*precios*/
 
 table {
-  width: 80%;
-  margin: auto;
+  font-size: larger;
+  width:80%;
+  margin: 120px;
   border-collapse: collapse;
 }
 
 th {
+  height: 40px;
   background: black;
   color: white;
 }
 
 td, th {
+  height: 30px;
+  color: white;
   padding: 10px;
   border: 1px solid #ccc;
 }
@@ -350,12 +354,37 @@ span:hover::after {
 }
 
 /*contacto*/
-form {
+form{
   display: flex;
   flex-direction: column;
   width: 300px;
   margin: auto;
   gap: 10px;
+}
+
+#msg {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  gap: 10px;
+  padding: 120px;
+}
+
+h1 { 
+  height: 60px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,0.8);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background: rgba(255,255,255,0.8);
 }
 
 input, textarea {
@@ -393,6 +422,8 @@ button {
 /*blog*/
 
 .blog {
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
@@ -407,9 +438,8 @@ article {
 /* ===== TAGS ===== */
 .tags span {
   background: lightgray;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
-  display: inline-block;
 }
 
 /* ===== COMENTARIOS ===== */
